@@ -24,5 +24,5 @@
 $query = $database->prepare( $sql );
 $query->execute(["id" => $id]);
 
-header("Location: exercise.php");
+header("Location: todolist.php");
   exit;
